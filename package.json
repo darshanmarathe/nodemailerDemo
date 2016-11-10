@@ -1,0 +1,29 @@
+{
+  "name": "node_mailer_demo",
+  "version": "0.0.1",
+  "description": "Node mailers demo ",
+  "main": "app.js ",
+  "scripts": {
+    "test": "node app "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshanmarathe/nodemailerDemo.git"
+  },
+  "keywords": [
+    "Express",
+    "Nodemailer",
+    "Handelrbars"
+  ],
+  "author": "Darshan Marathe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darshanmarathe/nodemailerDemo/issues"
+  },
+  "homepage": "https://github.com/darshanmarathe/nodemailerDemo#readme",
+  "dependencies": {
+    "nodemailer": "^2.6.4",
+    "nodemailer-express-handlebars": "^2.0.0",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
